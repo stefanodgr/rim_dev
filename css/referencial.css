@@ -1,0 +1,23 @@
+#div_ref{
+    position: relative;
+    width: 620px;
+    left: calc((100% - 620px)/2);
+    /*border: 1px solid red;*/
+    border-radius: 0px 0px 6px 6px;
+    float:left;
+}
+#div_ref_aux{
+    position: relative;
+    width: 49%;
+    /*border: 1px solid red;*/
+    border-radius: 0px 0px 6px 6px;
+    float: left;
+    left: 2%;
+}
+#ifr_ref,
+#ifr_ref_aux{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    border: none;
+}

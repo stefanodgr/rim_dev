@@ -1,0 +1,16 @@
+@font-face {
+    font-family: "Eponymous Regular";    
+    src: url('fuentes/eponymous-regular.otf'); 
+} 
+@font-face {
+    font-family: "Questa Grande";    
+    src: url('fuentes/2-questa_grande_regular_31-webfont.ttf'); 
+}
+@font-face {
+    font-family: "Caviar-Dreams";    
+    src: url('fuentes/CaviarDreams.ttf'); 
+} 
+@font-face {
+    font-family: "Caviar-Dreams-Bold";    
+    src: url('fuentes/Caviar_Dreams_Bold.ttf'); 
+}

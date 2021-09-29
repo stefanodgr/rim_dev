@@ -1,0 +1,168 @@
+.btn_hg{
+	height: 30px;
+	color: #F2F2F2 !important;
+	font-size: 12px;
+	font-weight: bolder;
+	font-family: sans-serif;
+	border: 1px solid #D8D8D8;
+	border-radius:6px;
+	text-shadow: 0px -1px 0px rgba(0, 0, 0, 0.2);
+	box-shadow: 0px 1px 0px rgba(255, 255, 255, 0.15) inset, 0px 1px 1px rgba(0, 0, 0, 0.075);
+	display: flex;
+    align-items: center;
+    justify-content: center;
+	cursor: pointer;
+}
+.btn_general{
+	width: 37px;
+	height: 37px;
+	border:1px solid lightgray; 
+	background-color:#F2F2F2;
+	border-radius: 4px;
+	cursor:pointer;
+	/*-webkit-box-shadow: 0px 3px 6px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px 3px 6px 0px rgba(0,0,0,0.75);
+	box-shadow: 0px 3px 6px 0px rgba(0,0,0,0.75);*/
+}
+.btn_general:active{
+	width: 37px;
+	height: 37px;
+	border:1px solid lightgray; 
+	background-color:#F2F2F2;
+	border-radius: 6px;
+	cursor:pointer;
+	-webkit-box-shadow: inset 1px 3px 8px -4px rgba(0,0,0,0.75);
+	-moz-box-shadow: inset 1px 3px 8px -4px rgba(0,0,0,0.75);
+	box-shadow: inset 1px 3px 8px -4px rgba(0,0,0,0.75);
+}
+.btnAzul{
+   	background-image: linear-gradient(to bottom, #337AB7 0px, #265A88 100%);
+    background-repeat: repeat-x;
+    /*border-color: #245580;*/
+}
+.btnAzul:hover{
+    background-color: #265A88;
+	background-position: 0px -15px;
+}
+.btnAzul2{
+   	background-image: linear-gradient(to bottom, #3AADC0 0px, #36749C 100%);
+    background-repeat: repeat-x;
+    /*border-color: #245580;*/
+}
+.btnAzul2:hover, .btnAzul:focus {
+    background-color: #36749C;
+	background-position: 0px -15px;
+}
+.btnAzul3{
+    background-image: linear-gradient(to bottom, #569DAB 0px, #3D6C75 100%);
+    background-repeat: repeat-x;
+    /*border-color: #3D6C75;*/
+}
+.btnAzul3:hover{
+    background-color: #3D6C75;
+    background-position: 0px -15px;
+}
+.btnVerde{
+	background-image: linear-gradient(to bottom, #5CB85C 0px, #419641 100%);
+    background-repeat: repeat-x;
+    /*border-color: #3E8F3E;*/
+}
+.btnVerde:hover{
+	background-color: #419641;
+	background-position: 0px -15px;
+}
+.btnVerde:active{
+	-webkit-box-shadow: inset 1px 3px 8px -4px rgba(0,0,0,0.75);
+	-moz-box-shadow: inset 1px 3px 8px -4px rgba(0,0,0,0.75);
+	box-shadow: inset 1px 3px 8px -4px rgba(0,0,0,0.75);
+}
+.btnVerde2{
+	background-image: linear-gradient(to bottom, #8DBD61 0px, #26751E 100%);
+    background-repeat: repeat-x;
+}
+.btnVerde2:hover{
+	background-color: #26751E;
+	background-position: 0px -15px;
+}
+.btnRojo{
+	margin-left:5px;
+	background-image: linear-gradient(to bottom, #D9534F 0px, #87221F 100%);
+	background-repeat: repeat-x;
+	/*border-color: #96302D;*/
+}
+.btnRojo:hover{
+	background-color: #87221F;
+	background-position: 0px -15px;
+}
+.btnRojo:active{
+	-webkit-box-shadow: inset 1px 3px 8px -4px rgba(0,0,0,0.75);
+	-moz-box-shadow: inset 1px 3px 8px -4px rgba(0,0,0,0.75);
+	box-shadow: inset 1px 3px 8px -4px rgba(0,0,0,0.75);
+}
+.btnAmarillo, .btnHijo{
+    background-image: linear-gradient(to bottom, #F0AD4E 0px, #C87706 100%);
+    background-repeat: repeat-x;
+    /*border-color: #EEA236;*/
+}
+.btnAmarillo:hover, .btnHijo:hover{
+	background-color: #C87706;
+    background-position: 0px -15px;
+}
+.btnCeleste{
+    background-image: linear-gradient(to bottom, #5BC0DE 0px, #2990AE 100%);
+    background-repeat: repeat-x;
+    /*border-color: #46B8DA;*/
+}
+.btnCeleste:hover{
+    background-color: #2990AE;
+    background-position: 0px -15px;
+}
+.btnAmarillo2{
+    background-image: linear-gradient(to bottom, #EFF300 0px, #BDC000 100%);
+    background-repeat: repeat-x;
+    /*border-color: #BDC000;*/
+}
+.btnAmarillo2:hover{
+    background-color: #BDC000;
+    background-position: 0px -15px;
+}
+.btnVioleta{
+	background-image: linear-gradient(to bottom, #C03A5B 0px, #5D1746 100%);
+	background-repeat: repeat-x;
+}
+.btnVioleta:hover{
+	background-color: #5D1746;
+    background-position: 0px -15px;
+}
+.btnGris{
+	background-image: linear-gradient(to bottom, #9E9E9E 0px, #545454 100%);
+	background-repeat: repeat-x;
+	font-size: 11px;
+	/*color: #393939 !important;
+	text-shadow: 0px -1px 0px rgba(227, 227, 227, 0.2);*/
+}
+.btnGris:hover{
+	background-color: #545454;
+    background-position: 0px -15px;
+}
+
+.btnAceptar, .btnCancelar{
+    width: 110px;
+    height: 30px;
+	font-weight: bold;
+	font-size: 12px;
+	font-family: sans-serif;
+}
+.btnCancelar{
+    margin-left: 10px;
+}
+.habilitado{
+	/*background-color: gray;*/
+	opacity: 1;
+	cursor: pointer !important;
+}
+.deshabilitado{
+	/*background-color: gray;*/
+	opacity: 0.2;
+	cursor: not-allowed !important;
+}

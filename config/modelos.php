@@ -1,0 +1,35 @@
+<?php
+    include_once RUTA_SISTEMA.'modelo/actividad.php';
+    include_once RUTA_SISTEMA.'modelo/auditoria.php';
+    include_once RUTA_SISTEMA.'modelo/conexion.php';
+    include_once RUTA_SISTEMA.'modelo/cuerpo.php';
+    include_once RUTA_SISTEMA.'modelo/documento.php';
+    include_once RUTA_SISTEMA.'modelo/estacion.php';
+    include_once RUTA_SISTEMA.'modelo/foto_adicional.php';
+    include_once RUTA_SISTEMA.'modelo/involucrado.php';
+    include_once RUTA_SISTEMA.'modelo/linea.php';
+    include_once RUTA_SISTEMA.'modelo/marca.php';
+    include_once RUTA_SISTEMA.'modelo/material_comisado.php';
+    include_once RUTA_SISTEMA.'modelo/medida_cautelar.php';
+    include_once RUTA_SISTEMA.'modelo/menu.php';
+    include_once RUTA_SISTEMA.'modelo/perfil.php';
+    include_once RUTA_SISTEMA.'modelo/personal.php';
+    include_once RUTA_SISTEMA.'modelo/rel_activ_invol.php';
+    include_once RUTA_SISTEMA.'modelo/rel_activ_invol_medida.php';
+    include_once RUTA_SISTEMA.'modelo/rel_activ_invol_sancion.php';
+    include_once RUTA_SISTEMA.'modelo/rel_actividad_status.php';
+    include_once RUTA_SISTEMA.'modelo/rel_perfil_menu.php';
+    include_once RUTA_SISTEMA.'modelo/rel_perfil_usuario.php';
+    include_once RUTA_SISTEMA.'modelo/rel_reporte_involucrado.php';
+    include_once RUTA_SISTEMA.'modelo/reporte.php'; 
+    include_once RUTA_SISTEMA.'modelo/sancion.php';
+    include_once RUTA_SISTEMA.'modelo/status.php';
+    include_once RUTA_SISTEMA.'modelo/tipo_actividad.php';
+    include_once RUTA_SISTEMA.'modelo/tipo_auditoria.php';
+    include_once RUTA_SISTEMA.'modelo/tipo_documento.php';
+    include_once RUTA_SISTEMA.'modelo/tipo_involucrado.php';
+    include_once RUTA_SISTEMA.'modelo/tipo_material.php';
+    include_once RUTA_SISTEMA.'modelo/tipo_vehiculo.php';
+    include_once RUTA_SISTEMA.'modelo/usuario.php';
+    include_once RUTA_SISTEMA.'modelo/vehiculo.php';
+?>

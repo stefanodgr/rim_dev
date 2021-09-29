@@ -1,0 +1,226 @@
+.glyphicon { 
+    margin-right:10px; 
+}
+.menu{
+    position: absolute;             
+    width:114%;
+    left:0%;
+    top: 0%;
+    bottom: 0%;
+    overflow-y: auto;
+    font-size: 10px;
+    padding: 15px 20px 15px 15px;
+    /*border: 1px solid red;    */
+}
+.div_inf{
+    position: relative;
+    width: 88%;
+    height: 60px;
+    color: #333;
+    background-color: RGBA(78, 171, 214, 0.45);
+    border: 1px solid #DDD;
+    box-shadow: 2px 2px 2px #c3c3c3;
+    text-shadow: 0px -1px 0px rgba(234, 234, 234, 0.53);
+    border-radius: 6px;
+}
+#usu_ico{
+    position: absolute;
+    width:25px;
+    height: 50%;
+    background-color: transparent;
+    font-size: 14px;
+    border: none;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /*border:1px solid red;*/
+}
+#inp_inf_usu{
+    position: absolute;
+    width:65px;
+    height: 50%;
+    margin-left:25px;
+    background-color: transparent;
+    font-size: 14px;
+    border: none;
+    padding: 5px;
+    /*border:1px solid red;*/
+}
+#inp_inf_usu_val{
+    position: absolute;
+    width:calc(100% - 90px);
+    height: 50%;
+    background-color: transparent;
+    font-size: 14px;
+    font-weight: bolder;
+    border: none;
+    margin-left:90px;
+    text-shadow: 0px -1px 0px rgba(234, 234, 234, 0.53);
+    /*border:1px solid red;*/
+}
+#perf_ico{
+    position: absolute;
+    width:25px;
+    height: 50%;
+    top: 50%;
+    background-color: transparent;
+    font-size: 14px;
+    border: none;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /*border:1px solid red;*/
+}
+#inp_inf_perfil{
+    position: absolute;
+    width:65px;
+    height: 50%;
+    margin-left:25px;
+    background-color: transparent;
+    font-size: 14px;
+    border: none;
+    padding: 5px;
+    top: 50%;
+    /*border:1px solid red;*/
+}
+#inp_inf_perfil_val{
+    position: absolute;
+    width:calc(100% - 90px);
+    height: 50%;
+    background-color: transparent;
+    font-size: 14px;
+    font-weight: bolder;
+    border: none;
+    margin-left:90px;
+    top: 50%;
+    text-shadow: 0px -1px 0px rgba(234, 234, 234, 0.53);
+    /*border:1px solid red;*/
+}
+.div_conex{
+    position: relative;
+    width: 88%;
+    height: 30px;
+    top: 10px;
+    color: #333;
+    background-color: RGBA(87, 188, 81, 0.4);
+    border: 1px solid #DDD;
+    box-shadow: 2px 2px 2px #c3c3c3;
+    text-shadow: 0px -1px 0px rgba(234, 234, 234, 0.53);
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+}
+.div_conex_accion{
+    position: absolute;
+    width: 78%;
+    height: 30px;
+    top: 85px;
+    color: #333;
+    background-color: transparent;
+    cursor: pointer;
+}
+#conex_ico{
+    position: absolute;
+    width:25px;
+    height: 100%;
+    top: 0%;
+    padding: 5px;
+    background-color: transparent;
+    font-size: 14px;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#inp_inf_conex{
+    width:150px;
+    height: 100%;
+    margin-left:25px;
+    padding: 5px;
+    background-color: transparent;
+    font-size: 14px;
+    border: none;
+    text-shadow: 0px -1px 0px rgba(234, 234, 234, 0.53);
+}
+#inp_inf_conex_val{
+    width:calc(100% - 175px);
+    height: 100%;
+    background-color: transparent;
+    font-size: 14px;
+    font-weight: bolder;
+    border: none;
+    /*margin-left:90px;*/
+    text-shadow: 0px -1px 0px rgba(234, 234, 234, 0.53);
+    /*border:1px solid red;*/
+}
+.panel-group {  
+    position: relative;
+    margin-top: 8mm;
+    margin-bottom: 5mm;
+}
+.panel-default > .panel-heading {
+    display: flex;
+    align-items: center;
+    background-color: rgba(213, 213, 213, 0.8);
+    border-color: #DDD;
+    font-size: 20px;
+    padding: 6px 10px;
+    border-bottom: 1px solid transparent;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+}
+.panel-heading:hover {
+    cursor: pointer; 
+    background: rgb(195, 195, 195);
+}
+.panel-heading:hover .item{
+    text-decoration: underline; 
+}
+.item{
+    color: #333;
+    font-size: 13px;
+    /*color: inherit;*/
+    font-weight: bold;
+}
+.panel-body {
+    padding: 0px;
+    font-weight: bold;
+}
+.panel-body .table {
+    margin-bottom: 0px; 
+}
+.panel-body table tr td { 
+    padding-left: 25px 
+}
+.panel-body span{
+    color: rgba(0, 0, 0, 0.74);
+    text-decoration: none;
+    /*font-weight: bold;*/
+}
+.panel-body span:hover{
+    text-decoration: none;
+    cursor: pointer;
+}
+.panel-default{
+    width:88%;
+}
+.icon-menu{
+    width: 23px; 
+    height: 23px;
+}
+.opcion{
+    font-size: 14px;
+    background-color: whitesmoke;
+}
+.opcion:hover{
+    background-color: RGB(182, 221, 239);
+    cursor: pointer;
+}
+.menu-selected{
+    background-color: rgb(195, 195, 195) !important;
+}
+.sub-selected{
+    background-color: RGB(182, 221, 239) !important;
+}

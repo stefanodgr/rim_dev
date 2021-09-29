@@ -1,0 +1,314 @@
+body{
+	font-family: sans-serif;
+	font-size: 14px;
+	color: #333;
+	width:100%;
+	margin-left: 0px;
+	margin-top: 0px;
+}
+select[size] {
+    height: 75%;
+    width: 15%;
+}
+label {
+    display: block;
+    margin-bottom: 1px;
+    font-weight: normal;
+}
+#tbl{
+	width:100% !important;
+	font-size: 12px;
+	font-family: sans-serif;
+	border-collapse: collapse;
+}
+#tbl thead th{
+	/*background: #727372 url(../jquery/images/ui-bg_glass_35_727372_1x400.png) 50% 50% repeat-x; */
+	color: #F2F2F2; 
+	text-align: center;
+	font-size: 12px;
+	font-family: sans-serif;
+	padding: 5px;
+    cursor: pointer;
+}
+#tbl .display thead th {
+    padding: 3px 3px 3px 3px;
+    cursor: pointer;
+}
+#tbl td{			/*ESTABLECE EL COLOR DEL BORDE PARA TODOS LOS TD DE LA TABLA DE ID "#tbl" */	
+	padding: 3px 10px;
+	border:1px solid #CCCCCC;
+}
+#tbl .indice{ 
+	/*MODIFICABLE*/
+	width: 1.5% !important;
+	padding: 8px;
+	font-size: 10px; 
+	text-align: center;
+	color: #F2F2F2;
+	font-weight: bold;
+	/*background-image: linear-gradient(to bottom, #3f718d 0px, #59adde 100%);*/
+	background: #3f718d;
+    background-repeat: repeat-x;
+	border: 1px solid #787878;
+	cursor: pointer;
+	align-content: center;
+}
+#tituloTabla label{
+	/*width: 100%;*/
+	font-weight: bold;
+	font-family: sans-serif;
+	text-shadow: 0px -1px 0px rgba(0, 0, 0, 0.2);
+	line-height: 250%;
+}
+#tbl_filter{
+	line-height: 250%;
+}
+#tbl_filter >label{
+	font-size: 12px;
+	font-weight: normal;
+	font-family: sans-serif;
+}
+.dataTables_empty{
+	text-align: center;
+	vertical-align: middle;
+}
+input[type="search"] {
+    border: 1px solid #CCC;
+    border-radius: 4px;
+    background-color: #FFF;
+	height: 20px;
+	width: 120px;
+	/*padding: 4px 6px;*/
+	margin-bottom: 10px;
+	font-size: 14px;
+	color: #555;
+	border-radius: 4px;
+	font-weight: normal;
+}
+input[type="search"]:focus {
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.075) inset, 0px 0px 8px #4D6C85;
+	border-color: #87A7B8;
+}
+input[type="text"]{
+	width:30%;
+}
+input[type='text']:focus{
+	box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.075) inset, 0px 0px 8px #4D6C85;
+	border-color: #87A7B8;
+	border-radius: 4px;
+	color: #555;
+}
+.onCelda {
+	background-image: linear-gradient(to bottom, #DCDCDC 0px, #A7A7A7 100%);
+	color: black;
+	/*font-weight: bold;*/
+}
+.onCeldaPlus {
+	background-image: linear-gradient(to bottom, #DCDCDC 0px, #A7A7A7 100%);
+	color: black;
+	cursor: pointer;
+	/*font-weight: bold;*/
+}
+.celdaSeleccionada{
+	background-image: linear-gradient(to bottom, #DCDCDC 0px, #A7A7A7 100%);
+	color: black;
+	/*font-weight: bold;*/
+}
+.celdaDelSeleccionada{
+	background-image: linear-gradient(to bottom, #D77979 0px, #EF9E9E 100%);
+	color: black;
+	/*font-weight: bold;*/
+}
+.celdaMultiSeleccionada{
+	background-image: linear-gradient(to bottom, #95B5BB 0px, #BCD5DA 100%);
+	color: black;
+	/*font-weight: bold;*/
+}
+/*select[multiple], select[size] {
+    height: auto;
+    width: 15%;
+}*/
+.dataTables_length {
+    width: 40%;
+    float: left;
+    height: 7%;
+}
+.ui-corner-tl, .ui-corner-bl{ 	
+	display: flex;										/*COLOR DEL HEADER FILTROS (NEGRO)*/
+	border: 1px solid #696969; 
+	color: #F2F2F2; 
+}
+.ui-corner-tl,.ui-corner-tr{
+	/*MODIFICABLE*/
+	/*background-image: linear-gradient(to bottom, #2C2B2B 0px, #6E6D6D 100%);*/
+	background: #6E6D6D;
+	border-radius: 5px 5px 0px 0px;
+	padding: 4px 8px;
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+.ui-corner-bl,.ui-corner-br{
+	/*MODIFICABLE*/
+	display: flex;
+	background: #6E6D6D;
+	border-radius: 0px 0px 5px 5px;
+	padding: 4px 8px;
+	line-height: 200%;
+	font-weight: bold;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+#tbl thead tr th, .ui-buttonset .ui-button{ 			/*COLOR DEL HEADER TITLE COLUMNA (GRIS) TEXTO HEADER*/
+	/*MODIFICABLE*/
+	border-width 		: 1px;
+	border-style 		: solid;
+	border-color 		:#404C78 #787878 #787878;
+	/*background-image    : linear-gradient(to bottom, #264f66 0px, #4ba4d7 100%);*/
+	background 			: #3f718d;
+    background-repeat 	: repeat-x;
+	font-weight 		: normal; 
+}
+#tbl .dataTables_scrollHead thead tr{ 					/*COLOR DEL HEADER TITLE COLUMNA (GRIS) TEXTO HEADER*/
+	border-width 		: 1px;
+	border-style 		: solid;
+	border-color 		: #CECE52 rgba(102, 99, 99, 0.51) #696969;
+	background-image    : linear-gradient(to bottom, #C29191 0px, #571A1A 100%);
+    background-repeat 	: repeat-x;
+	font-weight 		: normal; 
+}
+#tbl .ui-buttonset .ui-button{
+	background-color: transparent;
+}
+#tbl_first{
+	border-radius:  4px 0px 0px 4px;
+}
+#tbl_last{
+	border-radius:  0px 4px 4px 0px;
+}
+.fg-button{
+	padding: 2px 4px;
+	font-size: 12px;
+	cursor: pointer;
+}
+.ui-state-disabled{
+	opacity: 0.4;
+	cursor: not-allowed;
+}
+.dataTables_processing {
+	position: absolute;
+	top: 0px;
+	left: 50%;
+	width: 250px;
+	margin-left: -125px;
+	border-color: black rgba(102, 99, 99, 0.51) #6E6E6E;
+	text-align: center;
+	font-size: 12px;
+	padding: 2px 0;
+	background-image: linear-gradient(to bottom, #264f66 0px, #4ba4d7 100%);
+	color: #E7E7E7;
+	border-radius: 0px 0px 3px 3px;
+}
+.ui-icon {
+    display: initial;
+    text-indent: -99999px;
+    overflow: hidden;
+    background-repeat: no-repeat;
+}
+.filaClara{			/* ESTABLECE EL COLOR DEL SOMBREADO DE LAS FILAS IMPARES */
+	background-color:#EFEFEF;
+}
+.filaOscura{			/* ESTABLECE EL COLOR DEL SOMBREADO DE LAS FILAS PARES */
+	background-color: #E7E7E7;
+}
+.deshabilitado{
+	opacity:0.1;
+	cursor: not-allowed;
+}
+#btnTbl{
+	display: flex;
+    align-items: center;
+    justify-content: initial;
+}
+.btn_dtb{
+	width: 25px;
+	height: 25px;
+	margin-right: 2mm;
+	border-radius: 4px;
+	background: #534f4f;
+	/*-webkit-box-shadow: 0px 3px 6px 0px rgba(0,0,0,0.75);*/
+	/*-moz-box-shadow: 0px 3px 6px 0px rgba(0,0,0,0.75);*/
+	box-shadow: 0px 1px 3px 1px rgba(0,0,0,0.75);
+	outline: none !important; 
+	outline-style: none !important;
+	cursor:pointer;
+}
+.btn_dtb:active{
+	-webkit-box-shadow: inset 1px 3px 8px -4px rgba(0,0,0,0.75);
+	-moz-box-shadow: inset 1px 3px 8px -4px rgba(0,0,0,0.75);
+	box-shadow: inset 1px 3px 8px -4px rgba(0,0,0,0.75);
+}
+.btn_dtb:hover{
+	/*background: transparent linear-gradient(to bottom, rgb(147, 119, 119) 0px, rgb(54, 16, 16) 100%) repeat scroll 0% 0%;*/
+	/*background-image: linear-gradient(to bottom, #264f66 0px, #4ba4d7 100%);*/
+	background: #264f66;
+}
+.btnOperacion{
+	width: 60px;
+	height: 25px;
+	padding: 0px 5px 0px 5px;
+	border-radius: 6px;
+	text-shadow: 0px -1px 0px rgba(0, 0, 0, 0.2);
+	-webkit-box-shadow: 0px 3px 6px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px 3px 6px 0px rgba(0,0,0,0.75);
+	box-shadow: 0px 3px 6px 0px rgba(0,0,0,0.75);
+	font-size: 11px;
+	font-family: sans-serif;
+	color: #FFF;
+	outline: none !important; 
+	outline-style: none !important;
+	display: flex;
+    align-items: center;
+    justify-content: center;
+	cursor:pointer;
+}
+.btnOperacion .deshabilitado{
+	cursor: not-allowed;
+}
+.btnVerde{
+	background-image: linear-gradient(to bottom, #5CB85C 0px, #419641 100%);
+    background-repeat: repeat-x;
+    border-color: #3E8F3E;
+}
+.btnVerde:hover{
+	background-color: #419641;
+	background-position: 0px -15px;
+}
+.btnVerde:active{
+	-webkit-box-shadow: inset 1px 3px 8px -4px rgba(0,0,0,0.75);
+	-moz-box-shadow: inset 1px 3px 8px -4px rgba(0,0,0,0.75);
+	box-shadow: inset 1px 3px 8px -4px rgba(0,0,0,0.75);
+}
+.btnRojo{
+	margin-left:5px;
+	background-image: linear-gradient(to bottom, #D9534F 0px, #87221F 100%);
+	background-repeat: repeat-x;
+	border-color: #96302D;
+}
+.btnRojo:hover{
+	background-color: #87221F;
+	background-position: 0px -15px;
+}
+.btnRojo:active{
+	-webkit-box-shadow: inset 1px 3px 8px -4px rgba(0,0,0,0.75);
+	-moz-box-shadow: inset 1px 3px 8px -4px rgba(0,0,0,0.75);
+	box-shadow: inset 1px 3px 8px -4px rgba(0,0,0,0.75);
+}
+.clickeable{
+	color: #3F718D;
+	font-weight: bolder;
+	cursor: pointer;
+}
+.hCol{
+     display : none;
+}

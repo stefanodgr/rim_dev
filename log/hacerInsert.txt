@@ -1,0 +1,1 @@
+INSERT INTO conexion(conex_ip,conex_ent,rel_perfil_id) VALUES ('10.8.15.178','2018-05-24 15:28:30','30');

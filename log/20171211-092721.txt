@@ -1,0 +1,1 @@
+ERROR:  duplicate key value violates unique constraint "uk_estacion_nombre"INSERT INTO estacion (estacion_nombre,linea_id) VALUES ('BELLO MONTE','1')

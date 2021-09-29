@@ -1,0 +1,3 @@
+ERROR:  syntax error at or near ";"
+LINE 1: ...ECT * FROM conexion WHERE conex_sal IS NULL AND conex_id = ;
+                                                                      ^SELECT * FROM conexion WHERE conex_sal IS NULL AND conex_id = ;

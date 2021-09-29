@@ -1,0 +1,1 @@
+ERROR:  null value in column "actividad_descrip" violates not-null constraintINSERT INTO actividad(actividad_fecha,actividad_fecha_reg,actividad_lugar,conex_id,status_id,tipo_activ_id,estacion_id) VALUES ('2017-09-21 14:59:00','2017-09-21 14:59:41','ANDEN','1138','1','11','1');

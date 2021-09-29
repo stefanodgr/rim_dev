@@ -1,0 +1,180 @@
+#div_opc{
+    position: relative;
+    width: 100%;
+    height: 40px;
+    border: 1px solid #d8d8d8;
+    border-radius: 6px 6px 0px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+}
+#div_opc label,
+#div_opc input[type='radio']{
+    cursor: pointer;
+}
+#div_infraccion{
+    position: relative;
+    width: 100%;
+    top: 20px;
+    /*border: 1px solid red;*/
+}
+#ifr_infraccion{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    border: none;
+}
+#ficha_infraccion{
+    position: relative;
+    width: 100%;
+    /*left: calc((100% - 720px)/2);*/
+    border:1px solid #d8d8d8;
+    border-radius: 6px 6px 6px 6px;
+}
+.rim{
+    font-size: 20px;
+    color: #d20000;
+    font-weight: bold;
+}
+.celda_rim_sup1{
+    border-top: 1px solid #d8d8d8;
+    border-left: 1px solid #d8d8d8;
+    border-radius: 6px 0px 0px 0px;
+}
+.celda_rim_sup2{
+    border-top: 1px solid #d8d8d8;
+    border-right: 1px solid #d8d8d8;
+    border-radius: 0px 6px 0px 0px;
+}
+.celda_rim_inf1{
+    border-bottom: 1px solid #d8d8d8;
+    border-left: 1px solid #d8d8d8;
+    border-radius: 0px 0px 0px 6px;
+}
+.celda_rim_inf2{
+    border-bottom: 1px solid #d8d8d8;
+    border-right: 1px solid #d8d8d8;
+    border-radius: 0px 0px 6px 0px;
+}
+.inf_registro{
+    font-weight: normal;
+    font-size: 10px !important;
+    color: gray;
+}
+
+#ifr_infraccion_det,
+#ifr_infraccion_vic,
+#ifr_infraccion_fun,
+#ifr_infraccion_per,
+#ifr_infraccion_doc,
+#ifr_infraccion_mat,
+#ifr_infraccion_med,
+#ifr_infraccion_veh{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    border: none;
+}
+#ficha_involucrado,
+#ficha_documento,
+#ficha_material,
+#ficha_medio,
+#ficha_vehiculo{
+    position: relative;
+    width: 580px;
+    top: 0px;
+    left: calc((100% - 580px)/2);
+    border: 1px solid #d8d8d8;
+    border-radius: 6px 6px 6px 6px;
+}
+#ficha_sancion_medida{
+    position: relative;
+    width: 680px;
+    top: 0px;
+    left: calc((100% - 680px)/2);
+    border: 1px solid #d8d8d8;
+    border-radius: 6px 6px 6px 6px;
+}
+.area_titulo_head{
+    justify-content: flex-start;
+    text-shadow: 0px -1px 0px rgba(0, 0, 0, 0.2);
+    color: #F2F2F2;
+    background: #6E6D6D;
+    border-radius: 5px 5px 0px 0px;
+    font-weight: bolder;
+    font-size: 14px;
+    padding: 0px 8px;
+}
+.area_titulo_foot{
+    justify-content: flex-start;
+    text-shadow: 0px -1px 0px rgba(0, 0, 0, 0.2);
+    color: #F2F2F2;
+    background: #6E6D6D;
+    border-radius: 0px 0px 5px 5px;
+    font-weight: bolder;
+    font-size: 14px;
+    display: flex;
+    padding: 4px 8px;
+    line-height: 200%;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.inf_reincidente_inf{
+    width:100%;
+    justify-content: center;
+    border: 1px solid #830303;
+    background: #99041e;
+    color: #F2F2F2;
+    font-size: 16px;
+    font-weight: bold;
+    text-shadow: 0px -1px 0px rgba(0, 0, 0, 0.2);
+    border-radius: 6px;
+}
+#form_file{
+    width:calc(100% - 30px);
+    height:245px;
+    margin-top:15px;
+    margin-left:15px;
+    overflow-y:auto;
+}
+#btnTbl{
+	display: flex;
+    align-items: center;
+    justify-content: initial;
+}
+.btn_dtb{
+	width: 25px;
+	height: 25px;
+	margin-right: 2mm;
+	border-radius: 4px;
+	background: #534f4f;
+	/*-webkit-box-shadow: 0px 3px 6px 0px rgba(0,0,0,0.75);*/
+	/*-moz-box-shadow: 0px 3px 6px 0px rgba(0,0,0,0.75);*/
+	box-shadow: 0px 1px 3px 1px rgba(0,0,0,0.75);
+	outline: none !important; 
+	outline-style: none !important;
+	cursor:pointer;
+}
+.btn_dtb:active{
+	-webkit-box-shadow: inset 1px 3px 8px -4px rgba(0,0,0,0.75);
+	-moz-box-shadow: inset 1px 3px 8px -4px rgba(0,0,0,0.75);
+	box-shadow: inset 1px 3px 8px -4px rgba(0,0,0,0.75);
+}
+.btn_dtb:hover{
+	/*background: transparent linear-gradient(to bottom, rgb(147, 119, 119) 0px, rgb(54, 16, 16) 100%) repeat scroll 0% 0%;*/
+	/*background-image: linear-gradient(to bottom, #264f66 0px, #4ba4d7 100%);*/
+	background: #264f66;
+}
+.fileuploader-theme-thumbnails.fileuploader{
+    background: transparent;
+}
+.fileuploader-theme-thumbnails .fileuploader-thumbnails-input, .fileuploader-theme-thumbnails .fileuploader-items-list li.fileuploader-item{
+    width: 25%;
+    height: 240px;
+}
+.fileuploader-theme-thumbnails .fileuploader-thumbnails-input-inner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

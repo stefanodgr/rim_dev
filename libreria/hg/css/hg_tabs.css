@@ -1,0 +1,91 @@
+.hg-tabs-content{
+    position:relative;
+    width: 100%;
+    /*height: 50%; VA A DEPENDER DE LA PANTALLA EN LA QUE SE EJECUTE */
+    top:15px;
+    /*border: 1px solid red;*/
+    border-radius: 5px;
+    background: #F2F2F2;
+}
+.hg-tabs-bar{
+    position: relative;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    height: 35px;
+    width: 100%;
+    background: #424242; /*#3E3E3E;*/
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: sans-serif;
+    font-size: 13px;    
+}
+.hg-tabs-div{
+    position:relative;
+    width:100%;
+    height: calc(100% - 42px);
+    /*height: -webkit-calc(100% - 42px);*/
+    max-height: -moz-calc(100% - 42px);
+    border:1px solid lightgray;
+    border-radius: 0px 0px 5px 5px;
+    overflow-x: auto;
+    overflow-y: auto;
+}
+.hg-tabs-div > div{
+    position:relative;
+    /*border:1px solid red;*/
+    border-radius: 0px 0px 5px 5px;
+    /*height: 100%;*/
+}
+.hg-tab{
+    position: relative;
+    width: 10%;
+    height: 75%;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 5px;
+    margin-left:2px; 
+    -ms-display: flex;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.hg-tab-activo{
+    border-color: #815151 rgba(102, 99, 99, 0.51) #6E6E6E;
+    background-image: linear-gradient(to bottom, #424427 0px, #EAE57F 100%);/*#FBA769*/
+    /*text-decoration: underline;*/
+}
+.hg-tab-inactivo{
+    border-color: #CECE52 rgba(102, 99, 99, 0.51) #6E6E6E;
+    background-image: linear-gradient(to bottom, #C29191 0px, #571A1A 100%);
+    cursor: pointer;
+    /*border: 1px solid green;*/
+}
+.hg-tab-disabled{
+    cursor: not-allowed;
+}
+.hg-tab > span{
+    position: relative;
+    /*color: #C3C3A7;*/
+    font-weight: bold;
+    font-size: 99%;
+    padding: 0px 0px 0px 0px;
+    /*padding-left: 0%;*/
+    width: 100%;
+    text-align: center;
+    text-decoration: none;
+}
+.hg-tab-activo > span{
+    color:#232323;
+    /*text-decoration: underline;*/
+}
+.hg-tab-inactivo > span{
+    color:#CFCFB1;
+}
+.hg-tab:hover > span{
+    color:black;
+    text-decoration: underline;
+}
+.div-oculto{
+    display: none;
+}

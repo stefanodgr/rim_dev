@@ -1,0 +1,3 @@
+ERROR:  invalid input syntax for integer: ""
+LINE 1: ...volucrado SET invol_cedula = 'V5142012' WHERE invol_id = '';
+                                                                    ^UPDATE involucrado SET invol_cedula = 'V5142012' WHERE invol_id = '';

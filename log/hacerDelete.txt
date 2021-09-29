@@ -1,0 +1,1 @@
+DELETE FROM actividad WHERE actividad_id in (688);

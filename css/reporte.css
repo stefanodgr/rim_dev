@@ -1,0 +1,175 @@
+@page {
+    margin-top: 3cm;
+    margin-left: 1.2cm;
+    margin-bottom: 2.5cm;
+}
+body{
+    position: relative;
+    background: #FFFFFF;
+    margin:0%;
+    height: 100%;
+    width: 725px;
+    /*border: 1px solid red;*/
+}
+#panel_top{
+    position: fixed;
+    width: 100%;
+    height: 60px;
+    top: -90px;
+    /*border: 1px solid red;*/
+}
+#panel_foot{
+    position: fixed;
+    width: 100%;
+    height: 70px;
+    bottom: -2cm;
+    text-align: center;
+    font-family:sans-serif;
+    font-size:9px;
+    font-weight:bolder;
+    color:black;
+    /*border: 1px solid red;*/
+}
+#datos_foot{
+    position:relative;
+    width:100%;
+    height:10px;
+    top:10px;
+    font-size:8px !important;
+    font-weight:bolder !important;
+}
+#datos_foot td{
+    border-top:1px solid lightgray !important;
+    border-bottom:0px;
+    border-left:0px;
+    border-right:0px;
+    /*border: 1px solid lightgray !important;*/
+}
+/*#panel_foot #page_count:after { 
+    content: 'Pág ' counter(page);
+    counter-increment: page;
+}*/
+#panel_contenido{
+    position: relative;
+    width: 100%;
+    height: 840px;
+    /*border: 1px solid red;*/
+}
+.dark{
+    font-weight: bolder;
+}
+table{
+    border-spacing: 0;
+}
+table th,
+table td{
+    padding: 0.5mm 1mm;
+    border: 0.5px solid black;
+}
+table th{
+    height: 15px;
+}
+table td{
+    height: 18px;
+    font-size: 11px;
+}
+table tr{
+    vertical-align: middle;
+}
+.td_inf{
+    font-size: 12px;
+    background-color: #CEECF5;
+}
+.td_dato{
+    background-color: #F9F9F9;
+}
+.indice{
+    width: 3%;
+}
+.filaClara{			
+	background-color:#F9F9F9;
+}
+.filaOscura{			
+	background-color: #E7E7E7;
+}
+.oculto{
+    display:none;
+}
+.div_seccion{
+    position: relative;
+    top: 0px;
+    width:100%;
+    font-size:11px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    page-break-inside: auto;
+    /*border: 1px solid blue;*/
+}
+.div_subseccion{
+    position: relative;
+    top: 0px;
+    width:100%;
+    font-size:11px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    page-break-inside: avoid;
+}
+.titulo_seccion{
+    font-family: Impact, Haettenschweiler,'Arial Narrow Bold',sans-serif;
+    font-size:14px;
+    font-weight: bolder;
+    /*border:1px solid red;*/
+}
+.titulo_subseccion{
+    width: 100%;
+    height: 15px;
+    font-family: Impact, Haettenschweiler,'Arial Narrow Bold',sans-serif;
+    font-size:12px;
+    font-weight: bolder;
+    background-color: #E7E7E7;
+    border: 0.5px solid black;
+    padding: 1mm 1mm;
+    text-align: left;
+    /*border:1px solid red;*/
+}
+hr{
+  page-break-after: always;
+  border: 0;
+  margin: 0;
+  padding: 0;
+}
+
+/* ESTILOS UTILIZADOS EN REPORTE: EXPEDIENTE DEL INFRACTOR */
+    #div_ficha{
+        position: relative;
+        top: 0px;
+        width:100%;
+        height: 250px;
+        font-size:11px;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        /*border: 1px solid blue;*/
+    }
+/* --------------------------------------------------------- */
+
+/* ESTILOS UTILIZADOS EN REPORTE: LISTA DE INFRACCIONES */
+    #div_lista{
+        position: relative;
+        top: 0px;
+        width:100%;
+        font-size:11px;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        /*border: 1px solid blue;*/
+    }
+/* ---------------------------------------------------- */
+
+/* ESTILOS UTILIZADOS EN REPORTE: INFRACCIÓN*/
+    #div_observ{
+        width:100%;
+        height: auto;
+        min-height: 10px;
+        border-left:0.5px solid black;
+        border-bottom:0.5px solid black;
+        border-right:0.5px solid black;
+        word-wrap: break-word;
+        padding:1mm 1mm;
+        font-size: 11px;
+    }
+/* ---------------------------------------------------- */

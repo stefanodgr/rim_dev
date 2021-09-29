@@ -1,0 +1,104 @@
+html{
+	position: relative;
+	height: 100%;
+	width: 100%;	
+	left: 0%;
+	top: 0%;
+	background: #FFFFFF;
+	/*border: 1px solid red;*/
+}
+#contenedor_sistema{
+	position: absolute;
+	height: 98%;
+	width: 99%;
+	left: 0.5%;
+	top: 1%;
+	margin: auto;
+	overflow: hidden;
+	/*border: 1px solid red;*/
+}
+#panel_center{
+	position: absolute;
+	width: 100%;
+	height: calc(97.5% - 137px);
+	top: calc(1% + 82px);
+	background-color: #ECECEC;
+	border-radius: 10px 10px 0px 0px;
+	box-shadow: inset 0px 0px 10px gray;
+	border: 1px solid lightgray;
+}
+#panel_top{
+	position: absolute;
+	width: 100%;
+	height: 82px;
+	display: flex;
+}
+#panel_left{
+	position: absolute;
+	width: 280px;
+	height: calc(96.5% - 137px);
+	top: calc(1% + 82px);
+	background-color: #ECECEC;
+	border-radius: 10px 10px 10px 10px;
+	border: 1px solid lightgray;
+}
+#panel_right{
+	position: absolute;
+	width: calc(100% - 285px);
+	height: calc(96.5% - 137px);
+	top: calc(1% + 82px);
+	left: 285px;
+	background-color: #ECECEC;
+	border-radius: 10px 10px 10px 10px;
+	border: 1px solid lightgray;
+	overflow-y: hidden;
+}
+#ravan{
+	position: absolute;
+	width: 100%;
+	top: calc(82px + 1% + (97.5% - 137px));
+	height: 10px;
+}
+#panel_foot{
+	position: absolute;
+	width: 100%;
+	top: calc(92px + 1% + (97.5% - 137px));
+	height: 55px;
+	/*background: linear-gradient(to right, #2D5A95 0%, #ffffff 10%, #ffffff 90%, #2D5A95 100%);*/
+	background: #205A89;
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#434343', endColorstr='#434343', GradientType=1 );
+	display: flex;
+    align-items: center;
+    justify-content: center;
+	border-radius: 0px 0px 10px 10px;
+}
+.oculto{
+	display: none;
+}
+.modal_titulo{
+    justify-content: center;
+    background: linear-gradient(to bottom, RGB(150, 145, 145) 0px, #6C6C6C 100%);
+    text-shadow: 0px -1px 0px rgba(0, 0, 0, 0.2);
+    color: #F2F2F2;
+    border-radius: 6px 6px 0px 0px;
+    font-weight: bolder;
+    font-size: 18px;
+}
+.dsR160 /*agl rulekind: base;*/ { width: 74; height: auto; vertical-align: middle;text-align:left;font-size: 13px;font-weight: bold; }
+.dsR170 /*agl rulekind: base;*/ { width: 38; height: auto; vertical-align: middle;text-align:left;font-size: 13px;font-weight: bold; }
+.dsR110 /*agl rulekind: base;*/ { width: 147px; height: auto;font-size: 13px;font-weight: bold; }
+.dsR111 /*agl rulekind: base;*/ { width: 111px; height: auto;font-size: 13px;font-weight: bold; }
+.dsR112 /*agl rulekind: base;*/ { width: 222px; height: auto;font-size: 13px;font-weight: bold; }
+
+.rotar{
+	transform :rotate(-90deg);
+	transition-duration: 0.5s;
+}
+
+#logo_sistema{
+	position: absolute;
+	width: 90%;
+	height: 86%;
+	margin-left:5%;
+	top: calc((100% - 86%) / 2);
+}

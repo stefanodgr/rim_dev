@@ -1,0 +1,78 @@
+/* LOS VALORES QUE SON CAMBIADOS CON MÁS FRECUENCIA ESTAN COMENTADOS CON LA PALABRA "EDITABLE" */
+.div-tbl{
+	position: relative;
+	width: 100%;
+	font-family: sans-serif;	
+	font-size: 12px;	
+	/*border: 1px solid blue;	*/
+}
+.div-tbl-fi{
+	position: relative;
+	height: 40px;
+	display: flex;
+	align-items: center;
+}
+.div-tbl-co{
+	position: relative;
+	width: 4%;
+	height: 100%;
+	display: flex;
+	align-items: center;
+	/*border: 1px solid red;*/
+}
+.div-inp-trans{
+	width: 100%;
+	height: 30px;
+	color: black;
+	font-weight: bold;
+	border: 0px solid gray;
+	background: transparent;
+	overflow: hidden;
+}
+.div-inp-ena{	/*INPUT HABILITADO*/
+	background: #FFFFFF;
+	width:100%;
+	height: 30px;
+	border-radius:4px;
+	color:black;
+	font-size: 14px;
+	padding: 0px 5px;
+	overflow: hidden;
+	/*border:0.1em solid lightgray;*/
+}
+.div-inp-ena:focus{	/*INPUT HABILITADO*/
+	box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.075) inset, 0px 0px 8px #4D6C85;
+	border-color: #87A7B8;
+	border-radius: 4px;
+}
+.div-inp-dis{	/*INPUT DESHABILITADO*/
+	background: #F4F4F2;
+	width:100%;
+	height: 30px;
+	border-radius:4px;
+	color:black;
+	font-size: 14px;
+	padding: 0px 5px;
+	overflow: hidden;
+	cursor: not-allowed !important;
+	/*border:0.1em solid lightgray;*/
+}
+.div-tbl label input[type="radio"]{ 
+	vertical-align: text-bottom;
+	margin-top: 10px;
+	cursor: pointer;
+}
+.div-tbl-co > select{
+	/*width:100%;*/
+	height: 30px;
+	cursor: pointer;
+	font-weight: bold;
+}
+.div-tbl-co > input[type="radio"]{
+    font-weight: normal;
+    cursor: pointer;
+}
+.div-tbl-co > textarea{
+    height: calc(100% - 10px);
+	overflow-y:scroll;
+}

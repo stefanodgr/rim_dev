@@ -1,0 +1,1 @@
+UPDATE conexion set conex_sal = '2018-05-24 15:29:37' WHERE conex_id = 1164 AND conex_sal IS NULL

@@ -1,0 +1,1 @@
+UPDATE involucrado SET invol_cedula = 'V5142012' WHERE invol_id = '';
